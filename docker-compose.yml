@@ -1,0 +1,45 @@
+version: "3"
+services:
+  frontend-react:
+    container_name: frontend-react-docker
+    build: ./frontend-react
+    depends_on:
+      - spring-boot
+    ports:
+      - "3000:3000"
+    image: frontend
+    restart: unless-stopped
+    networks:
+      - SEP-NETWORK
+
+  spring-boot:
+    container_name: backend-spring-docker
+    build: ./backend-spring
+    ports:
+      - "8080:8080"
+    image: backend
+    environment:
+      spring.datasource.url: jdbc:postgresql://db:5432/postgres
+      spring.datasource.username: postgres
+      spring.datasource.password: "admin"
+    depends_on:
+      - db
+    restart: unless-stopped
+    networks:
+      - SEP-NETWORK
+
+  db:
+    container_name: postgres_docker
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "postgres"
+    ports:
+      - "5434:5432"
+    restart: unless-stopped
+    networks:
+      - SEP-NETWORK
+
+networks:
+  SEP-NETWORK:

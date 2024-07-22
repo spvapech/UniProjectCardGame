@@ -1,0 +1,32 @@
+card_name,card_rarity,card_atk_points,defence_points,card_description,card_picture
+Black Hole Escapade,Common,3,1,exploit black holes,http://localhost:8080/uploads/Black Hole Escapade.png
+Cosmocrats,Common,1,3,navigate political intrigue,http://localhost:8080/uploads/Cosmocrats.png
+Dimensional Drifter,Common,4,1,can warp between dimensions,http://localhost:8080/uploads/Dimensional Drifter.png
+Eclipse Hunter,Common,3,2,A mercenary who uses solar eclipses,http://localhost:8080/uploads/Eclipse Hunter.png
+Exoplanet Expedition,Common,1,1,Explore alien worlds,http://localhost:8080/uploads/Exoplanet Expedition.png
+Lightyear Pioneer,Common,0,3,an explorer's vessel,http://localhost:8080/uploads/Lightyear Pioneer.png
+Nebula Ark,Common,3,1,a mysterious alien guardian,http://localhost:8080/uploads/Nebula Ark.png
+Nexarion Prime,Common,2,2,a advanced Cybot,http://localhost:8080/uploads/Nexarion Prime.png
+Pasarasit,Common,1,1,an annoying Alien,http://localhost:8080/uploads/Pasarasit.png
+Pulsar Patrol,Common,2,2,Secure trade routes,http://localhost:8080/uploads/Pulsar Patrol.png
+Robo,Common,0,2,a little robot,http://localhost:8080/uploads/Robo.png
+Void Stalker,Common,2,1,a lethal hunter,http://localhost:8080/uploads/Void Stalker.png
+Vortex Explore,Common,2,1,research the cosmic storms,http://localhost:8080/uploads/Vortex Explore.png
+Cyclone Saga,Rare,5,2,Battle within cosmic cyclones,http://localhost:8080/uploads/Cyclone Saga.png
+Eclipse Wraith Baron,Rare,7,3,Emerging from the darkest corner of the universe,http://localhost:8080/uploads/Eclipse Wraith Baron.png
+Galaxy Founders,Rare,4,2,negotiate with aliens,http://localhost:8080/uploads/Galaxy Founders.png
+Galaxy Keeper,Rare,2,6,A guardian who maintains the balance,http://localhost:8080/uploads/Galaxy Keeper.png
+Nebula Knight,Rare,3,9,Cloaked in amor forged from nebulas,http://localhost:8080/uploads/Nebula Knight.png
+Photon Duel,Rare,6,1,Master photon manipulation,http://localhost:8080/uploads/Photon Duel.png
+Pulsar Shield,Rare,0,7,An energy that absorbs pulsar waves,http://localhost:8080/uploads/Pulsar Shield.png
+Quantum Vortex,Rare,3,5,a powerful energy whirl,http://localhost:8080/uploads/Quantum Vortex.png
+Solar Flare,Rare,4,3,simulates a massive solar eruption,http://localhost:8080/uploads/Solar Flare.png
+Star Banner Raids,Rare,6,2,Raid convoys and outposts,http://localhost:8080/uploads/Star Banner Raids.png
+Stellar Drifter,Rare,5,2,a nomadic spaceship,http://localhost:8080/uploads/Stellar Drifter.png
+Temporal Fissure,Rare,3,3,opens temporary gaps in time,http://localhost:8080/uploads/Temporal Fissure.png
+Ari,legendary,10,10,no emotion only pure destruction,http://localhost:8080/uploads/Ari.png
+Celestial Sentinel,legendary,10,10,guard over ancient interstellar gateways,http://localhost:8080/uploads/Celestial Sentinel.png
+Galactic Enforcer,legendary,7,5,the lone keeper of cosmic lore,http://localhost:8080/uploads/Galactic Enforcer.png
+Hyperlight Tactics,legendary,10,8,tactical space duels,http://localhost:8080/uploads/Hyperlight Tactics.png
+O Deus Klaus,legendary,99,0,je nach Implementierung,http://localhost:8080/uploads/O Deus Klaus.png
+
